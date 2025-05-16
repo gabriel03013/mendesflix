@@ -1,0 +1,104 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+
+body {
+  margin: 0;
+  top: 0;
+  bottom: 0;
+  font-family: "Montserrat", sans-serif;
+  background-color: rgb(20, 20, 20);
+  color: rgb(245, 245, 245);
+}
+
+header {
+  background-color: rgb(40, 40, 40);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  padding-left: 20px;
+  color: rgb(245, 245, 245);
+}
+
+header img {
+  width: 90px;
+}
+
+#menu {
+  align-items: center;
+  justify-content: center;
+}
+
+ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: 15px;
+  background-color: rgb(40, 40, 40);
+  padding: 10px 20px;
+  border-radius: 10px;
+  font-family: "Montserrat", sans-serif;
+}
+ul li {
+  list-style: none;
+}
+
+ul a {
+  color: rgb(245, 245, 245);
+  text-decoration: none;
+  font-size: 16px;
+  transition: 0.5s ease;
+}
+
+ul a:hover {
+  color: rgb(95, 0, 184);
+  transform: scale(1.2);
+}
+
+#opcoes {
+  background-color: rgb(40, 40, 40);
+  display: flex;
+  gap: 15px;
+  border-radius: 30px;
+}
+
+#opcoes input {
+  background-color: #4b4b4b;
+  color: rgb(245, 245, 245);
+  padding: 6px 15px;
+  font-size: 14px;
+  border: none;
+  border-radius: 6px;
+  outline: none;
+  transition: 0.4s ease;
+  font-family: "Montserrat", sans-serif;
+  width: 130px;
+}
+#opcoes input:hover {
+  color: rgb(150, 75, 230);
+  background-color: rgb(60, 60, 60);
+  transform: scale(1.1);
+}
+
+#opcoes button {
+  background-color: #4b4b4b;
+  color: rgb(245, 245, 245);
+  padding: 6px 12px;
+  font-size: 14px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  transition: 0.4s ease;
+}
+
+#opcoes button:hover {
+  color: rgb(150, 75, 230);
+  background-color: rgb(60, 60, 60);
+  transform: scale(1.1);
+}
+
+#introducao {
+    display: flex;
+}
