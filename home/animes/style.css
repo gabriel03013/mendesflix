@@ -107,65 +107,38 @@ ul a:hover {
 }
 
 .poster {
-  background-color: #191919;
-  width: 250px;
-  height: 480px;
-  border-radius: 20px;
+  width: 230px;
+  height: 375px;
+  border-radius: 10px;
   text-align: center;
-  padding-top: 20px;
+  padding-top: 15px;
   transition: 0.4s ease;
 }
 .poster:hover {
-  background-color: #7272723f;
-  transform: scale(1.1);
+  background-color: #7272722a;
+  transform: scale(1.05);
 }
 
 .card img {
   width: 200px;
-  height: 300px;
-  border-radius: 20px;
-}
-.card button {
-  border-radius: 20px;
-  border-color: rgb(74, 8, 180);
-  background-color: #191919;
-  color: rgb(245, 245, 245);
-  width: 150px;
-  height: 30px;
-  margin-top: 7px;
-  font-family: "Montserrat", sans-serif;
-  cursor: pointer;
-  transition: 0.4s ease;
+  height: 280px;
+  border-radius: 10px;
 }
 
-.card button:hover {
-  background-color: rgb(50, 50, 50);
-  transform: scale(1.1);
-}
 
 .card p {
   text-align: left;
-  margin-left: 25px;
+  margin-left: 15px;
   font-size: 14px;
   margin-top: 1px;
   font-family: "Montserrat", sans-serif;
 }
 
-
-#maisVistos {
+.coluna {
   display: flex;
-  gap: 30px;
+  gap: 10px;
   justify-content: center;
-  margin-left: 30px;
-  margin-top: 40px;
-}
-
-#recomendados {
-  display: flex;
-  gap: 30px;
-  justify-content: center;
-  margin-left: 30px;
-  margin-top: 40px;
+  margin-top: 10px;
 }
 
 #tituloRecomendados {

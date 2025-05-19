@@ -1,0 +1,224 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+body {
+    margin: 0;
+    top: 0;
+    bottom: 0;
+    font-family: 'Montserrat', sans-serif;
+    background-color: rgb(20, 20, 20);
+    color: rgb(245, 245, 245);
+}
+
+header {
+    background-color: rgb(40, 40, 40);
+    display: flex;              
+    justify-content: space-between; 
+    align-items: center;        
+    padding: 10px;
+    padding-left: 20px;
+    color: rgb(245, 245, 245);
+}
+
+header img {
+    width: 90px;
+}
+
+#menu ul {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    gap: 15px;
+    background-color: rgb(40, 40, 40);
+    padding: 10px 20px;
+    border-radius: 10px;
+    font-family: 'Montserrat', sans-serif;
+}
+#menu ul li {
+    list-style: none;
+}
+
+#menu ul a {
+    color: rgb(245, 245, 245);
+    text-decoration: none;
+    font-size: 16px;
+    transition: 0.5s ease;
+}
+
+#menu ul a:hover {
+    color: rgb(95, 0, 184);
+    transform: scale(1.2);
+}
+
+
+#opcoes {
+    background-color: rgb(40, 40, 40);
+    display: flex;
+    gap: 15px;
+    border-radius: 30px;
+}
+
+#opcoes input {
+    background-color: #4b4b4b;     
+    color: rgb(245, 245, 245);                
+    padding: 6px 15px;             
+    font-size: 14px;
+    border: none;
+    border-radius: 6px;
+    outline: none;
+    transition: 0.4s ease;
+    font-family: 'Montserrat', sans-serif;
+    width: 130px;
+}
+#opcoes input:hover {
+    color: rgb(150, 75, 230);
+    background-color: rgb(60, 60, 60);
+    transform: scale(1.1)
+}
+
+#opcoes button {
+    background-color: #4b4b4b;     
+    color: rgb(245, 245, 245);                   
+    padding: 6px 12px;             
+    font-size: 14px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    transition: 0.4s ease;
+}
+
+#opcoes button:hover {
+    color: rgb(150, 75, 230);
+    background-color: rgb(60, 60, 60);    transform: scale(1.1);
+}
+
+#base article h2::first-letter {
+    color: rgb(95, 0, 184);
+}
+
+#base {
+    text-align: left;
+}
+
+#base p {
+    margin-left: 20px;
+    line-height: 7px;
+    color: gray;
+    font-size: 13px;
+}
+
+main {
+    margin-left: 30px;
+}
+
+
+#apresentacao {
+    display: flex;
+}
+
+#apresentacao iframe {
+    width: 600px;
+    height: 300px;
+    margin-top: 10px;
+    border-radius: 20px;
+}
+
+#sinopse {
+    margin-left: 20px;
+    line-height: 25px;
+    letter-spacing: 0.5px;
+}
+
+#sinopse p {
+    max-width: 500px;
+    text-align: justify;
+    margin-left: 10px;
+}
+
+#espacinho1 {
+    background-color: rgb(95, 0, 184);
+    margin-left: 20px;
+    width: 1px;
+}
+
+#temporadas {
+    margin-left: 20px;
+}
+
+#temporadas div {
+    margin-left: 10px;
+    width: 400px;
+    background-color: #4b4b4b;
+    padding: 7px;
+    text-align: justify center;
+    border-radius: 20px;
+    margin-top: 20px
+}
+#temporadas div:hover {
+    background-color: rgb(60, 60, 60);
+}
+
+
+#containerPoster {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+}
+  
+#containerGeneros {
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+    margin-top: 10px;
+    gap: 10px;
+}
+  
+.generos {
+    background-color: #4b4b4b;
+    padding: 8px 20px;
+    border-radius: 15px;
+    text-align: center;
+    white-space: nowrap;
+}
+
+.generos:hover {
+    background-color: rgb(60, 60, 60);
+}
+
+#saibaMais {
+    cursor: pointer;
+}
+
+#saibaMais details h4::first-letter {
+    color: rgb(95, 0, 184);
+}
+
+#resenha h1::first-letter {
+    color: rgb(95, 0, 184);
+}
+#resenha h1 {
+    font-size: 18px;
+}
+#resenha p{
+    margin-top: 10px;
+    width: 98%;
+    margin-left: 15px;
+    line-height: 25px;
+    letter-spacing: 0.5px;
+    text-align: justify;
+}
+
+footer {
+  bottom: 0px;
+  background-color: rgb(40, 40, 40);
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  color: rgb(245, 245, 245);
+  height: 50px;
+  position: relative;
+}
